@@ -1,0 +1,40 @@
+body {
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input { background-color: transparent; 
+    border-style: none; 
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 60px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+h1 { font-size: 3em; }
+
+p { font-size: 4em; }
+
+button { 
+    text-align: center;
+    background-color: transparent; 
+    margin-top: 30px;
+    margin-right: 48px;
+    border-style: solid;
+    border-color: white;
+}
+
+a { text-decoration: none; }
+
+
